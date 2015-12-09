@@ -12,6 +12,7 @@ namespace KolkoKrzyrzyk_Proj.Pola
         public Puste(Button przycisk)
             : base(przycisk)
         {
+            base.TypPola = Plansza.TypPola.puste;
             base.ObrazekSource = null;
         }
 

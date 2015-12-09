@@ -10,7 +10,9 @@ namespace KolkoKrzyrzyk_Proj.Pola
 {
 
     public abstract class BazaPola : IDisposable
-    {        
+    {
+        public Plansza.TypPola TypPola { get; protected set; }
+
         public int NumerPola
         {
             get { return _przycisk != null ? Convert.ToInt32(_przycisk.Tag) : -1; }

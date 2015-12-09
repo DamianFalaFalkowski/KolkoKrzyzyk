@@ -19,33 +19,41 @@ namespace KolkoKrzyrzyk_Proj
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
-        Plansza plansza { get; set; }
-
+    {      
         public MainWindow()
         {
-            plansza = new Plansza();
+            ObsługaGry.ZarejestrujPlanszę(new Plansza());
             InitializeComponent();
         }
 
+        // nowa gra
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ObsługaGry.NowaGra(new Gra());
         }
 
+        // załaduj gre
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
         }
 
+        // zapisz grę
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
         }
 
+        // kliknięcie pola
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        // załadowanie pola
+        private void Button_Loaded(object sender, RoutedEventArgs e)
+        {
+            ObsługaGry.ZarejestrujPole(sender as Button);
         }
     }
 }

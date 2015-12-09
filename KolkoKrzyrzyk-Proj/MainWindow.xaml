@@ -35,63 +35,63 @@
                 
                 <!--POLE 0-0-->
                 <Grid Grid.Row="0" Grid.Column="0">                  
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="0">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="0" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 0-1-->
-                <Grid Grid.Row="0" Grid.Column="2">                   
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="1">
+                <Grid Grid.Row="0" Grid.Column="2">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="1" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 0-2-->
-                <Grid Grid.Row="0" Grid.Column="4">                    
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="2">
+                <Grid Grid.Row="0" Grid.Column="4">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="2" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 1-0-->
-                <Grid Grid.Row="2" Grid.Column="0">                   
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="3">
+                <Grid Grid.Row="2" Grid.Column="0">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="3" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 1-1-->
-                <Grid Grid.Row="2" Grid.Column="2">                 
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="4">
+                <Grid Grid.Row="2" Grid.Column="2">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="4" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 1-2-->
-                <Grid Grid.Row="2" Grid.Column="4">                    
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="5">
+                <Grid Grid.Row="2" Grid.Column="4">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="5" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 2-0-->
-                <Grid Grid.Row="4" Grid.Column="0">                   
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="6">
+                <Grid Grid.Row="4" Grid.Column="0">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="6" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 2-1-->
-                <Grid Grid.Row="4" Grid.Column="2">                    
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="7">
+                <Grid Grid.Row="4" Grid.Column="2">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="7" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>
 
                 <!--POLE 2-2-->
-                <Grid Grid.Row="4" Grid.Column="4">                   
-                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="8">
+                <Grid Grid.Row="4" Grid.Column="4">
+                    <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="8" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
                 </Grid>

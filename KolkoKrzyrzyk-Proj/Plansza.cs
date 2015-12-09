@@ -40,6 +40,7 @@ namespace KolkoKrzyrzyk_Proj
                         Przyciski[Convert.ToInt16(przycisk.Tag)] = new Kółko(przycisk);
                         break;
                     case TypPola.krzyżyk:
+                        Przyciski[Convert.ToInt16(przycisk.Tag)] = new Krzyżyk(przycisk);
                         break;
                     default:
                         break;
