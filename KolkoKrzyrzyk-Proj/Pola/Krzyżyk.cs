@@ -15,6 +15,7 @@ namespace KolkoKrzyrzyk_Proj.Pola
         public Krzyżyk(Button przycisk)
             : base(przycisk)
         {
+            base.TypPola = Plansza.TypPola.krzyżyk;
             base.ObrazekSource = new BitmapImage(new Uri(_krzyżykImage));
         }
 
