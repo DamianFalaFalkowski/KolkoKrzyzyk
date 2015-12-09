@@ -14,3 +14,16 @@ c:\users\damian\documents\visual studio 2013\Projects\KolkoKrzyrzyk-Proj\KolkoKr
 C:\Users\Damian\Documents\Visual Studio 2013\Projects\KolkoKrzyrzyk-Proj\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\bin\Debug\KolkoKrzyrzyk-Proj.exe.config
 C:\Users\Damian\Documents\Visual Studio 2013\Projects\KolkoKrzyrzyk-Proj\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.exe
 C:\Users\Damian\Documents\Visual Studio 2013\Projects\KolkoKrzyrzyk-Proj\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.pdb
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\bin\Debug\KolkoKrzyrzyk-Proj.exe.config
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.exe
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.pdb
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\MainWindow.baml
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\MainWindow.g.cs
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\App.g.cs
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj_MarkupCompile.cache
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.g.resources
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk_Proj.Properties.Resources.resources
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\obj\Debug\KolkoKrzyrzyk-Proj.csproj.GenerateResource.Cache
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\bin\Debug\KolkoKrzyrzyk-Proj.exe
+C:\Users\Damian\Documents\GitHub\KolkoKrzyzyk\KolkoKrzyrzyk-Proj\bin\Debug\KolkoKrzyrzyk-Proj.pdb

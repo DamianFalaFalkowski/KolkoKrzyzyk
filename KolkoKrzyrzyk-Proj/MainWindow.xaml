@@ -7,16 +7,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <!--PRZYCISKI-->
         <StackPanel Orientation="Horizontal" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
             <Button Content="Nowa Gra" Margin="1,0" Click="Button_Click"/>
-            <Button Content="Zapisz Grę" Margin="1,0" Click="Button_Click_1"/>
-            <Button Content="Wczytaj Grę" Margin="1,0" Click="Button_Click_2"/>
         </StackPanel>
-        
+
         <!--PLANSZA-->
-        <Grid Grid.Row="1" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+        <Grid x:Name="Plansza" Visibility="Collapsed" Grid.Row="1" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
@@ -32,9 +30,9 @@
                     <RowDefinition Height="5"/>
                     <RowDefinition Height="100"/>
                 </Grid.RowDefinitions>
-                
+
                 <!--POLE 0-0-->
-                <Grid Grid.Row="0" Grid.Column="0">                  
+                <Grid Grid.Row="0" Grid.Column="0">
                     <Button Background="#01FFFFFF" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click_3" Tag="0" Loaded="Button_Loaded">
                         <Image/>
                     </Button>
@@ -95,7 +93,7 @@
                         <Image/>
                     </Button>
                 </Grid>
-                
+
                 <!--LINIE-->
                 <Rectangle Fill="Black" Grid.Column="1" Grid.Row="0" Grid.RowSpan="5"/>
                 <Rectangle Fill="Black" Grid.Column="3" Grid.Row="0" Grid.RowSpan="5"/>

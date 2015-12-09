@@ -22,32 +22,22 @@ namespace KolkoKrzyrzyk_Proj
     {      
         public MainWindow()
         {
-            ObsługaGry.ZarejestrujPlanszę(new Plansza());
+            ObsługaGry.ZarejestrujPlanszę();
             InitializeComponent();
         }
 
         // nowa gra
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ObsługaGry.NowaGra(new Gra());
-        }
-
-        // załaduj gre
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        // zapisz grę
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-
+            ObsługaGry.NowaGra();
+            // pokazuję planszę dla użytkownika
+            Plansza.Visibility = Visibility.Visible;
         }
 
         // kliknięcie pola
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            ObsługaGry.RuchWykonany(Convert.ToInt32((sender as FrameworkElement).Tag));
         }
 
         // załadowanie pola

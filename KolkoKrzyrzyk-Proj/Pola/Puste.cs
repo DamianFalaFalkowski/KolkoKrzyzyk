@@ -16,6 +16,13 @@ namespace KolkoKrzyrzyk_Proj.Pola
             base.ObrazekSource = null;
         }
 
+        public Puste(BazaPola starePole)
+            : base(starePole)
+        {
+            base.TypPola = Plansza.TypPola.puste;
+            base.ObrazekSource = null;
+        }
+
         public override void Dispose()
         {
             base.Dispose();

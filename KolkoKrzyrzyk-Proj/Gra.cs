@@ -3,37 +3,78 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace KolkoKrzyrzyk_Proj
 {
     public class Gra
     {
         /// <summary>
-        /// true - kółko, false - krzyżyk
+        /// określa czyj trwa aktualnie ruch true - kółko, false - krzyżyk
         /// </summary>
         public bool CzyjRuch { get; private set; }
 
+        /// <summary>
+        /// określa czy gra została zakończona
+        /// </summary>
         public bool CzySkończona { get; private set; }
 
-        public Wynik WynikGry { get; private set; }
+        /// <summary>
+        /// określa status gry
+        /// </summary>
+        public ObsługaGry.Status StatusGry { get; private set; }
 
+        /// <summary>
+        /// konstruktor - ustawia początkowe wartości
+        /// </summary>
         public Gra()
         {
             CzyjRuch = true;
             CzySkończona = false;
+            StatusGry = ObsługaGry.Status.trwa;
         }
 
-        public void WykonanoRuch()
+        /// <summary>
+        /// Obsługuje aktualizację gry po wykonaniu ruchu
+        /// </summary>
+        /// <param name="status">status gry, po zaktualizowaniu gry w klasie Plansza</param>
+        public void WykonanoRuch(ObsługaGry.Status status)
         {
-            CzyjRuch = !CzyjRuch;
+            StatusGry = status;
+
+            if (status== ObsługaGry.Status.kółkowygrało ||
+            status== ObsługaGry.Status.krzyżykwygrał ||
+            status== ObsługaGry.Status.remis)
+            {                    
+                ZakończGrę();
+            }
+            else
+            {
+                CzyjRuch = !CzyjRuch;   
+            }                           
         }
 
-        public void ZakończGrę(Wynik wynik)
+        /// <summary>
+        /// Obsługuje zakończenie gry
+        /// </summary>
+        private void ZakończGrę()
         {
             CzySkończona = true;
-            WynikGry = wynik;
-        }
 
-        public enum Wynik { kółko, krzyżyk, remis}
-    }
+            switch (StatusGry)
+            {
+                case ObsługaGry.Status.kółkowygrało:
+                    MessageBox.Show("Kółko wygrało!");
+                    break;
+                case ObsługaGry.Status.krzyżykwygrał:
+                    MessageBox.Show("Krzyżyk wygrał!");
+                    break;
+                case ObsługaGry.Status.remis:
+                    MessageBox.Show("Remis!");
+                    break;
+                default:
+                    break;
+            }
+        }            
+    }   
 }
