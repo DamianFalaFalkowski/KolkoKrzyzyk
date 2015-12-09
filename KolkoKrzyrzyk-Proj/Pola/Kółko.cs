@@ -11,8 +11,10 @@ namespace KolkoKrzyrzyk_Proj.Pola
 {
     public class Kółko : BazaPola, IDisposable
     {
+        // ścirżka do obrazku kółka
         private static string _kółkoImage = "Images/img_kółko.png";
 
+        // konstruktor 1 opierający się na konstruktorze z klasy bazowej czyli BazaPola
         public Kółko(Button przycisk)
             : base(przycisk)
         {
@@ -20,6 +22,7 @@ namespace KolkoKrzyrzyk_Proj.Pola
             base.ObrazekSource = new BitmapImage(new Uri(_kółkoImage, UriKind.Relative));
         }
 
+        // konstruktor 2 opierający się na konstruktorze z klasy bazowej czyli BazaPola
         public Kółko(BazaPola starePole)
             : base(starePole)
         {     

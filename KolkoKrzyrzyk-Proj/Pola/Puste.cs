@@ -9,6 +9,7 @@ namespace KolkoKrzyrzyk_Proj.Pola
 {
     public class Puste : BazaPola, IDisposable
     {
+        // konstruktor 1 opierający się na konstruktorze z klasy bazowej czyli BazaPola
         public Puste(Button przycisk)
             : base(przycisk)
         {
@@ -16,6 +17,7 @@ namespace KolkoKrzyrzyk_Proj.Pola
             base.ObrazekSource = null;
         }
 
+        // konstruktor 2 opierający się na konstruktorze z klasy bazowej czyli BazaPola
         public Puste(BazaPola starePole)
             : base(starePole)
         {

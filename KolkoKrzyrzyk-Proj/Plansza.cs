@@ -44,7 +44,7 @@ namespace KolkoKrzyrzyk_Proj
 
         public void PrzygotujPlanszę()
         {
-            for (int i = 0; i < _przyciski.Length-1; i++)
+            for (int i = 0; i < _przyciski.Length; i++)
             {
                 if (_przyciski[i].TypPola == TypPola.krzyżyk || _przyciski[i].TypPola == TypPola.kółko)
                 {
@@ -89,6 +89,20 @@ namespace KolkoKrzyrzyk_Proj
                         break;
                 }
             }
+        }
+
+        /// <summary>
+        /// Sprawdza czy podane pole jest puste
+        /// </summary>
+        /// <param name="nrPola"></param>
+        /// <returns></returns>
+        public bool CzyPolejestPuste(int nrPola)
+        {
+            if (_przyciski[nrPola].TypPola == TypPola.puste)
+            {
+                return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -209,7 +223,7 @@ namespace KolkoKrzyrzyk_Proj
                 // przechodząc do kolejnego ułozenia wyzeruj licznik
                 pasująceElementyUłożenia = 0;
                 // w każdym ułożeniu przechodź po jego elementach
-                for (int i = 0; i < ułożenie.Length-1; i++)
+                for (int i = 0; i < ułożenie.Length; i++)
                 {
                     // jeśli rozpatrywane pole w ułożeniu ma wartosć true to przejśdz dalej aby sprawdzić pokrycie
                     if (ułożenie[i])

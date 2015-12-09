@@ -29,7 +29,9 @@ namespace KolkoKrzyrzyk_Proj
         // nowa gra
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // rozpoczynam nową grę
             ObsługaGry.NowaGra();
+
             // pokazuję planszę dla użytkownika
             Plansza.Visibility = Visibility.Visible;
         }
